@@ -1,0 +1,293 @@
+.pre{
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: absolute;
+	z-index: 99;
+	background-color: white;
+}
+.abc{
+	position: relative;
+	left: 40%;
+	top: 40%;
+	background-size: cover;
+	width: 400px;
+	height: 250px;
+	background-image: url("https://miro.medium.com/max/1400/1*Gvgic29bgoiGVLmI6AVbUg.gif");
+}
+.xy{
+	display: none !important;
+}
+@media screen and (max-width: 425px) {
+	.nav{
+		display: none;
+	}
+	.xy{
+		display: block !important;
+	}
+	.abc{
+		left: -5%;
+		top: 20%;
+	}
+	.cy{
+		display: none;
+	}
+	.box3{
+		margin-top: -45px !important;
+   	 	margin-left: 100px;
+	}
+	.im1{
+		margin-top: 0 !important;
+	}
+	.hed5{
+		font-size: 100%;
+		padding: 10px !important;
+		margin-left: 0px !important;
+	}
+	.para7{
+		font-size: 76% !important;
+		margin-left: 5px !important;
+		margin-top: 20px !important;
+	}
+	.box4{
+		height: 115px !important;
+	}
+	.hed6{
+		margin-top: 0px !important;
+	}
+	.hr4{
+		margin-right: 320px !important;
+	}
+	.main2{
+		height: 1350px !important;
+	}
+}
+@media screen and (max-width: 768px) {
+	.nav{
+		display: none;
+	}
+	.xy{
+		display: block !important;
+	}
+	.abc{
+		left: 20%;
+		top: 20%;
+	}
+	.box3{
+		margin-top: -35px !important;
+    	margin-left: 125px;
+	}
+	.im1{
+		margin-top: 0 !important;
+	}
+	.hed5{
+		padding: 27px !important;
+		margin-left: -18px !important;
+	}
+	.para7{
+	margin-top: 20px !important;
+    font-size: 17px !important;
+    margin-left: 8px !important;
+	}
+	.box4{
+		height: 200px !important;
+	}
+}
+
+.nv1{
+	float: right;
+	margin-top: -55px;
+}
+@font-face{
+	font-family: "fontt";
+	src: url("font1.ttf");
+}
+.hed1{
+	font-family: fontt;
+	margin-top: -3px;
+	margin-left: 60px;
+	color: skyblue;
+}
+.para1{
+	margin-top: -19px;
+    margin-left: 58px;
+}
+.cl{
+	font-weight: bolder;
+	color: skyblue;
+}
+.box1{
+	width: 100%;
+	height: 30px;
+	background-color: skyblue;
+}
+.cl2{
+	color: white;
+}
+.para2{
+	margin-left: 50px;
+}
+.hr1{
+	border: 1px solid white;
+	width: 0px;
+    height: 30px;
+    margin-top: -32px;
+    margin-left: 250px;
+}
+.para3{
+	margin-top: -47px;
+    margin-left: 300px;
+}
+.hr2{
+	border: 1px solid white;
+	width: 0px;
+    height: 30px;
+    margin-top: -32px;
+    margin-right: 1450px;
+}
+@font-face{
+	font-family: "font2";
+	src: url("font2.ttf");
+}
+.hed2{
+	font-family: font2;
+	margin-right: 785px;
+    margin-top: -272px;
+	color: black;
+}
+.para4{
+	margin-right: 770px;
+	color: black;
+	font-style: italic;
+}
+.butn1{
+	margin-right: 770px;
+}
+.hed3{
+	font-family: font2;
+	margin-right: 785px;
+    margin-top: -272px;
+	color: white;
+}
+.para5{
+	margin-right: 770px;
+	color: white;
+	font-style: italic;
+}
+@font-face{
+	font-family: "font3"
+	src: url("font3.ttf");
+}
+.hed4{
+	color: white;
+	font-family: font3;
+	font-weight: bolder;
+}
+.para6{
+	color: white;
+	font-weight: bold;
+}
+.hr3{
+	width: 100%;
+	border: 1px solid lightgrey;
+	margin-top: 50px;
+} 
+.box2{
+	background-color: skyblue;
+	height: 150px;
+	margin-top: 10px;
+}
+.cir1{
+	height: 75px;
+    width: 75px;
+    border-radius: 360px;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.box3{
+	margin-top: 30px;
+}
+.im1{
+	margin-top: -440px;
+}
+.box4{
+	background-image: url(pic10.jpg);
+	background-size: 100%;
+	width: 100%;
+	height: 450px;
+	background-repeat: no-repeat;
+	margin-top: 50px;
+}
+@font-face{
+	font-family: "font4";
+	src: url("font4.otf");
+}
+.hed5{
+	font-family: font3;
+	font-weight: bolder;
+	padding: 65px;
+	margin-left: 120px;
+}
+.para7{
+	margin-top: -62px;
+    font-size: 20px;
+    margin-left: 176px;
+}
+.hed6{
+	font-family: font4;
+	font-weight: bolder;
+	margin-left: 20px;
+    margin-top: 50px;
+}
+.hr4{
+	width: 75px;
+	border: 5px solid skyblue;
+	margin-right: 1800px;
+}
+.hed7{
+	font-family: font3;
+	font-weight: bolder;
+}
+.hed8{
+	color: skyblue;
+	font-weight: bolder;
+}
+.box5{
+	box-shadow: 1px 1px 5px grey;
+	padding: 2px;
+}
+.hed9{
+	text-decoration: line-through;
+}
+.box6{
+	width: 100%;
+}
+.hr5{
+	width: 100%;
+	border: 1px solid lightgrey;
+	margin-top: 50px;
+}
+.main2{
+	background-color: skyblue;
+	width: 100%;
+	height: 500px;
+}
+.hed10{
+	font-family: font3;
+	font-weight: bolder;
+	color: white;
+	text-align: left;
+}
+.para7{
+	color: white;
+	margin-top: 10px;
+	margin-left: 0px;
+}
+.hed11{
+	border: 1px solid white;
+	color: white;
+	width: 200px;
+	padding: 10px;
+}

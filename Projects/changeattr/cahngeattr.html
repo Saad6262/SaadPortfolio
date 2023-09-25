@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<center>
+
+	<button onclick="xyz()" class="btn">ON</button>
+
+	
+	<img src="pic1.png" width="30%" id="bulb">
+
+	<button onclick="abc()" class="btn">OFF</button>
+
+	</center>
+<script type="text/javascript">
+	function abc(){
+		document.getElementById('bulb').setAttribute("src","pic2.png")
+	}
+	function xyz(){
+		document.getElementById('bulb').setAttribute("src","pic1.png")
+	}
+</script>
+
+
+
+</body>
+</html>

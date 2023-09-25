@@ -1,0 +1,105 @@
+.box1{
+	background-image: url("pic1.jpg");
+	width: 100%;
+	height: 700px;
+	background-repeat: no-repeat;
+	background-size: 100% 700px;
+	margin-left: -50%;
+	margin-top: 100px;
+	transition: 1.5s;
+}
+.butn1{
+	width: 150px;
+	height: 150px;
+	background-color: skyblue;
+	color: white;
+	font-weight: bolder;
+	border: none;
+	margin-left: 75%;
+	margin-top: 250px;
+	font-size: 20px;
+	transition: 1s;
+}
+.box2{
+	background-image: url("pic2.jpg");
+	width: 100%;
+	height: 700px;
+	background-repeat: no-repeat;
+	background-size: 100% 700px;
+	margin-left: 50%;
+	margin-top: -700px;
+	transition: 1s;
+}
+.butn2{
+	width: 150px;
+	height: 150px;
+	background-color: skyblue;
+	color: white;
+	font-weight: bolder;
+	border: none;
+	margin-left: 200px;
+	margin-top: 250px;
+	font-size: 20px;
+	transition: 1s;
+}
+.w{
+	margin-left: 50%;
+}
+.z{
+	margin-left: 101%;
+}
+.box3{
+    margin-left: -55%;
+    transition: 1.5s;
+    background-color: #241711;
+    color: white;
+    width: 50%;
+    height: 700px;
+    margin-top: -721px;
+}
+.f{
+	margin-left: 0%;
+}
+.in1{
+	width: 300px;
+    height: 35px
+}
+.in2{
+	width: 300px;
+	height: 100px;
+}
+.butn3{
+	width: 100px;
+    height: 35px;
+    background-color: limegreen;
+    color: white;
+    font-weight: bolder;
+}
+.b{
+	margin-left: 25%;
+}
+.k{
+	margin-left: -101%;
+}
+.n{
+	margin-left: -50%;
+}
+.y{
+	margin-left: 70%;
+}
+.box4{
+	width: 50%;
+	height: 700px;
+	background-color: #241711;
+	color: white;
+	padding: 10px;
+	margin-left: 101%;
+	margin-top: -700px;
+	transition: 1s;
+}
+.p{
+	margin-left: 50%;
+}
+.para1{
+	margin-top: 200px;
+}

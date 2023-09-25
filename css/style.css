@@ -9938,11 +9938,11 @@ h6,
 }
 
 .portfolio-item:hover .portfolio-btn {
-  opacity: 1;
-  width: calc(100% - 60px);
+  opacity: 0.5;
+  width: calc(100% - 0px);
   height: calc(100% - 60px);
-  top: 30px;
-  left: 30px;
+  top: 65px;
+  left: 0px;
 }
 
 .testimonial-carousel .owl-dots {
@@ -9981,4 +9981,8 @@ h6,
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+.bg-self {
+  background-color: grey;
 }
